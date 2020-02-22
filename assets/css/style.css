@@ -13,7 +13,10 @@ h1 {
 }
 
 section p {
-  margin: 5vw 2vh;
+  height: 0;
+  margin: 0;
+  margin-top: 9vh;
+  margin-bottom: 23vh;
   text-align: center;
   font-size: 5em;
   color: #494242e1;
@@ -25,6 +28,18 @@ section img {
   width: 90px;
   height: 90px;
   position: relative;
-  top: -24vh;
+  top: -21vh;
   left: 60vw;
+  margin: 0;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+section a:hover {
+  font-size: 1.2em;
 }
