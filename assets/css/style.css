@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Slabo+27px|Trade+Winds&display=swap");
 body {
   background-image: url(../img/markus-spiske-Xd4GFj673h8-unsplash.jpg);
   background-size: cover;
@@ -8,4 +9,14 @@ h1 {
   font-size: 5em;
   color: #39485f;
   text-shadow: 5px 5px 8px rgb(230, 225, 225);
+  font-family: "Trade Winds";
+}
+
+section p {
+  margin: 5vw 2vh;
+  text-align: center;
+  font-size: 5em;
+  color: #494242e1;
+  text-shadow: 5px 5px 5px rgb(146, 134, 134);
+  font-family: "Slabo 27px";
 }
