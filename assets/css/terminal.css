@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css?family=Slabo+27px|Trade+Winds&display=swap");
+
+html {
+  height: 800px;
+}
+body {
+  background-image: url(../img/markus-spiske-Xd4GFj673h8-unsplash.jpg);
+  /* background-size: cover; */
+  background-size: 100%;
+}
+h1 {
+  margin: 2vw 2vh;
+  text-align: center;
+  font-size: 5em;
+  color: #39485f;
+  text-shadow: 5px 5px 8px rgb(230, 225, 225);
+  font-family: "Trade Winds";
+}
+
+section p {
+  height: 0;
+  margin: 0;
+  margin-top: 9vh;
+  margin-bottom: 23vh;
+  text-align: center;
+  font-size: 5em;
+  color: #494242e1;
+  text-shadow: 5px 5px 5px rgb(146, 134, 134);
+  font-family: "Slabo 27px";
+}
+
+section img {
+  width: 90px;
+  height: 90px;
+  position: relative;
+  top: -21vh;
+  left: 60vw;
+  margin: 0;
+}
+
+section a:hover {
+  font-size: 1.2vw;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  float: left;
+  position: relative;
+  top: -70vh;
+  left: -2.4vw;
+}
+
+nav ul {
+  text-align: center;
+}
+
+nav ul li {
+  position: relative;
+  width: 50px;
+  cursor: pointer;
+  transition: all 0.4s ease-out;
+}
+
+nav ul li:after {
+  font-family: "Slabo 27px";
+  text-align: center;
+  border-radius: 0 50% 0px 50%;
+  position: absolute;
+  background: #d6d9cc98;
+  color: #39485f;
+  top: 0;
+  left: 70px;
+  width: 70px;
+  height: 100%;
+  transform: perspective(400px) rotateY(90deg);
+  transform-origin: -30% 100%;
+  transition: all 0.4s ease-out;
+}
+
+nav ul li:nth-child(1):after {
+  content: "Home";
+  font-weight: bolder;
+  line-height: 48px;
+}
+nav ul li :nth-child(2):after {
+  content: "Terminal";
+  line-height: 88px;
+}
+nav ul li:nth-child(3):after {
+  content: "git&github";
+  line-height: 85px;
+}
+nav ul li:nth-child(4):after {
+  content: "info&contact";
+  line-height: 70px;
+}
+
+nav ul li:hover {
+  transform: translateX(-110px);
+}
+
+nav ul li:hover:after {
+  width: 5vw;
+  height: 6vh;
+  opacity: 0.8;
+  transform: perspective(900px) translateX(30px) translateY(30px)
+    rotateY(-50deg) scale(2);
+}
+
+img {
+  width: 6vw;
+  height: 8vh;
+  margin-bottom: 10vh;
+  margin-top: 0;
+}
+
+span img {
+  width: 70px;
+  height: 70px;
+}
+
+span {
+  transition: color 0.5s ease;
+}
+
+.menu {
+  font-family: "Slabo 27px";
+  font-weight: bolder;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  color: #dce1ee;
+  text-shadow: 5px 5px 5px black;
+  display: inline-block;
+  cursor: pointer;
+  pointer-events: none;
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+}
+.menu:hover {
+ 
+  pointer-events: all;
+}
+
+.menu:hover .item{
+ animation-name: nam;
+  animation-duration: 2s;
+} 
+
+@keyframes nam{
+  10%{
+    transform: translateY(-5px);
+  }
+  20%{
+    transform: translateY(5px);
+  }
+  30%{
+    transform: translateY(-5px);
+  }
+  40%{
+    transform: translateY(5px);
+  }
+  50%{
+    transform: translateY(-5px);
+  }
+  60%{
+    transform: translateY(5px);
+  }70%{
+    transform: translateY(-5px);
+  }
+  80%{
+    transform: translateY(5px);
+  }
+  90%{
+    transform: translateY(-5px);
+  }
+  
+  100%
+}
+.follow {
+  display: inline-block;
+  cursor: pointer;
+  pointer-events: all;
+}
+.spacer {
+  display: inline-block;
+  width: 250px;
+  margin-left: 15px;
+  margin-right: 90px;
+  vertical-align: middle;
+  cursor: pointer;
+  position: relative;
+}
+.spacer:before {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid #ffffff;
+  height: 1px;
+  width: 0%;
+  transition: width 0.15s ease;
+  transition-delay: 0.6s;
+}
+.item {
+  position: relative;
+  display: inline-block;
+  margin-right: 30px;
+  top: 10px;
+  opacity: 0;
+  transition: opacity 0.5s ease, top 0.5s ease;
+  transition-delay: 0;
+}
+.item:hover img {
+  width: 100px;
+  height: 100px;
+}
+.menu:hover .spacer:before {
+  width: 100%;
+  transition-delay: 0s;
+}
+.menu:hover .item {
+  opacity: 1;
+}
+.item:nth-child(1) {
+  transition-delay: 0.45s;
+}
+.item:nth-child(2) {
+  transition-delay: 0.4s;
+}
+.item:nth-child(3) {
+  transition-delay: 0.35s;
+}
+.item:nth-child(4) {
+  transition-delay: 0.3s;
+}
+.item:nth-child(5) {
+  transition-delay: 0.25s;
+}
+.menu:hover .item:nth-child(1) {
+  transition-delay: 0.25s;
+}
+.menu:hover .item:nth-child(2) {
+  transition-delay: 0.3s;
+}
+.menu:hover .item:nth-child(3) {
+  transition-delay: 0.35s;
+}
+.menu:hover .item:nth-child(4) {
+  transition-delay: 0.4s;
+}
+.menu:hover .item:nth-child(5) {
+  transition-delay: 0.45s;
+}
+.menu:hover .item:nth-child(6) {
+  transition-delay: 0.5s;
+}
+.menu:hover .item:nth-child(7) {
+  transition-delay: 0.55s;
+}
+.menu:hover .item:nth-child(8) {
+  transition-delay: 0.6s;
+}
+.menu:hover .item:nth-child(9) {
+  transition-delay: 0.65s;
+}
+.menu:hover .item:nth-child(10) {
+  transition-delay: 0.7s;
+}
