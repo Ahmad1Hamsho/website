@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Slabo+27px|Trade+Winds&display=swap");
-@import url('https://fonts.googleapis.com/css?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pangolin|Slabo+27px|Trade+Winds&display=swap');
 html {
   height: 800px;
 }
@@ -27,6 +26,7 @@ top: -5vh;
 
 
 .s1, .s2, .s3{
+  
     margin-bottom:0vh;
     margin-top:0;
     padding: 0;
@@ -65,7 +65,7 @@ box-shadow: 7px 7px 9px rgb(255, 255, 255);
 top: 2.7vh;
 margin: 7vh 0px;
     font-size: 2.6vw;
-font-family: 'Pangolin', ;
+font-family: 'Pangolin' ;
 color:#39485F;
 text-shadow:2px 6px 6px white, -1px -3px 6px rgb(255, 255, 255);
 text-align: center;
@@ -75,7 +75,7 @@ text-align: center;
 top: 2.7vh;
 margin: 0px 0px;
     font-size: 2.6vw;
-font-family: 'Pangolin', ;
+font-family: 'Pangolin' ;
 color:#39485F;
 text-shadow:2px 6px 6px white, -1px -3px 6px rgb(255, 255, 255);
 text-align: center;
@@ -85,7 +85,7 @@ text-align: center;
 top: 2.7vh;
 margin: 0px 0px;
     font-size: 2.6vw;
-font-family: 'Pangolin', ;
+font-family: 'Pangolin' ;
 color:#39485F;
 text-shadow:2px 6px 6px white, -1px -3px 6px rgb(255, 255, 255);
 text-align: center;
@@ -97,6 +97,127 @@ text-align: center;
 cursor: pointer;
 background: none;
 }
+
+
+.s1 .cd,.ls,.su {
+  position: absolute;
+  top: 56vh;
+  left: 15vw;
+  height: 8vh;
+  width: 35vw;
+  text-align: center;
+  text-shadow:2px 6px 6px white, -1px -3px 6px rgb(255, 255, 255);
+  border-radius: /* 0px 50px 0  */50px;
+  background-color: rgba(180, 167, 167, 0.26);
+  color: #39485F;
+  font-size: 1.6em;
+  font-family: 'Pangolin' ;
+  font-weight: bolder;
+  box-shadow: 7px 7px 9px rgb(255, 255, 255);
+  vertical-align: middle;
+  display: inline-block;
+  padding-top: 30px;
+  opacity: 0;
+  transition: 0.5s ease-in, top 0.5s ease-out;
+  transition-delay: 0;
+  transform: rotate(1deg) /* skew(3deg  80deg ) */ skewY(1deg) ;
+
+}
+
+
+.s2 .cp,.mv,.rm {
+  position: absolute;
+  top: 56vh;
+  left: 15vw;
+  height: 8vh;
+  width: 35vw;
+  text-align: center;
+  text-shadow:2px 6px 6px white, -1px -3px 6px rgb(255, 255, 255);
+  border-radius: /* 0px 50px 0  */50px;
+  background-color: rgba(180, 167, 167, 0.26);
+  color: #39485F;
+  font-size: 1.6em;
+  font-family: 'Pangolin' ;
+  font-weight: bolder;
+  box-shadow: 7px 7px 9px rgb(255, 255, 255);
+  vertical-align: middle;
+  display: inline-block;
+  padding-top: 30px;
+  opacity: 0;
+  transition: 0.5s ease-in, top 0.5s ease-out;
+  transition-delay: 0;
+  transform: rotate(1deg) /* skew(3deg  80deg ) */ skewY(1deg) ;
+
+}
+
+.s3 .mkdir,.rmdir,.pwd {
+  position: absolute;
+  top: 56vh;
+  left: 15vw;
+  height: 8vh;
+  width: 35vw;
+  text-align: center;
+  text-shadow:2px 6px 6px white, -1px -3px 6px rgb(255, 255, 255);
+  border-radius: /* 0px 50px 0  */50px;
+  background-color: rgba(180, 167, 167, 0.26);
+  color: #39485F;
+  font-size: 1.6em;
+  font-family: 'Pangolin' ;
+  font-weight: bolder;
+  box-shadow: 7px 7px 9px rgb(255, 255, 255);
+  vertical-align: middle;
+  display: inline-block;
+  padding-top: 30px;
+  opacity: 0;
+  transition: 0.5s ease-in, top 0.5s ease-out;
+  transition-delay: 0;
+  transform: rotate(1deg) /* skew(3deg  80deg ) */ skewY(1deg) ;
+
+}
+
+.s1 div:hover .cd {
+  opacity: 1;
+}
+
+
+
+.s1 div:hover .ls {
+  opacity: 1;
+}
+
+.s1 div:hover .su {
+  opacity: 1;
+}
+
+.s2 div:hover .cp {
+  opacity: 1;
+}
+
+.s2 div:hover .mv {
+  opacity: 1;
+}
+
+.s2 div:hover .rm {
+  opacity: 1;
+}
+
+.s3 div:hover .mkdir {
+  opacity: 1;
+}
+
+.s3 div:hover .rmdir {
+  opacity: 1;
+}
+
+.s3 div:hover .pwd {
+  opacity: 1;
+}
+
+
+
+
+
+
 
 
 
