@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Slabo+27px|Trade+Winds&display=swap");
 
 html {
-  height: 800px;
+  height: 78vh;
+ /*  width: 100vw; */
 }
 body {
   background-image: url(../img/markus-spiske-Xd4GFj673h8-unsplash.jpg);
   /* background-size: cover; */
   background-size: 100%;
+  background-repeat: no-repeat no-repeat;
 }
 h1 {
   margin: 2vw 2vh;
@@ -141,8 +143,8 @@ span {
   cursor: pointer;
   pointer-events: none;
   position: absolute;
-  bottom: 3px;
-  left: 20px;
+  top: 74vh;
+  left: 1vw;
   margin: 0;
 }
 .menu:hover {
@@ -276,9 +278,11 @@ span {
 
 footer div p{
   font-size: 2rem;
-  position: relative;
-  left: 74vw;
-  top: 1vh;
+  position: absolute;
+  left: 72vw;
+  width: 25vw;
+  text-align: center;
+  top: 19vh;
   bottom: 1vh;
   margin-top: 0;
   margin-bottom: 0;
