@@ -89,11 +89,11 @@ nav ul li:nth-child(1):after {
   font-weight: bolder;
   line-height: 48px;
 }
-nav ul li :nth-child(2):after {
+nav ul li :nth-child(2)::after {
   content: "Terminal";
   line-height: 88px;
 }
-nav ul li:nth-child(3):after {
+nav ul li :nth-child(3):after {
   content: "git&github";
   line-height: 85px;
 }
@@ -213,7 +213,7 @@ span {
   margin-right: 30px;
   top: 10px;
   opacity: 0;
-  transition: opacity 0.5s ease, top 0.5s ease;
+  transition: 0.5s ease, top 0.5s ease;
   transition-delay: 0;
 }
 .item:hover img {
