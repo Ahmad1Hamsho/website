@@ -106,72 +106,73 @@ background: none;
   height: 8vh;
   width: 35vw;
   text-align: center;
-  text-shadow:2px 6px 6px white, -1px -3px 6px rgb(255, 255, 255);
-  border-radius: /* 0px 50px 0  */50px;
-  background-color: rgba(180, 167, 167, 0.26);
-  color: #39485F;
-  font-size: 1.6em;
+  text-shadow:4px 4px 6px rgb(179, 159, 159), -4px -4px 6px rgb(255, 255, 255);
+  border-radius:50px 0 50px 0px;
+  background-color: rgba(255, 255, 255, 0.281);
+  color: rgb(1, 2, 2);
+  font-size: 1.7em;
+  line-height: 4vh;
   font-family: 'Pangolin' ;
   font-weight: bolder;
-  box-shadow: 7px 7px 9px rgb(255, 255, 255);
+  box-shadow: 7px 7px 9px rgb(0, 0, 0),-7px -7px 9px rgb(0, 0, 0);
   vertical-align: middle;
   display: inline-block;
   padding-top: 30px;
   opacity: 0;
   transition: 0.5s ease-in, top 0.5s ease-out;
   transition-delay: 0;
-  transform: rotate(1deg) /* skew(3deg  80deg ) */ skewY(1deg) ;
+  transform: rotate(1deg) skewY(0.2deg) ;
 
 }
 
 
-.s2 .cp,.mv,.rm {
-  position: absolute;
+.s2 .cp,.mv,.rm {position: absolute;
   top: 56vh;
   left: 15vw;
   height: 8vh;
   width: 35vw;
   text-align: center;
-  text-shadow:2px 6px 6px white, -1px -3px 6px rgb(255, 255, 255);
-  border-radius: /* 0px 50px 0  */50px;
-  background-color: rgba(180, 167, 167, 0.26);
-  color: #39485F;
-  font-size: 1.6em;
+  text-shadow:4px 4px 6px rgb(179, 159, 159), -4px -4px 6px rgb(255, 255, 255);
+  border-radius:50px 0 50px 0px;
+  background-color: rgba(255, 255, 255, 0.281);
+  color: rgb(1, 2, 2);
+  font-size: 1.7em;
+  line-height: 4vh;
   font-family: 'Pangolin' ;
   font-weight: bolder;
-  box-shadow: 7px 7px 9px rgb(255, 255, 255);
+  box-shadow: 7px 7px 9px rgb(0, 0, 0),-7px -7px 9px rgb(0, 0, 0);
   vertical-align: middle;
   display: inline-block;
   padding-top: 30px;
   opacity: 0;
   transition: 0.5s ease-in, top 0.5s ease-out;
   transition-delay: 0;
-  transform: rotate(1deg) /* skew(3deg  80deg ) */ skewY(1deg) ;
+  transform: rotate(1deg) skewY(0.2deg) ;
 
 }
 
-.s3 .mkdir,.rmdir,.pwd {
-  position: absolute;
+.s3 .mkdir,.rmdir,.pwd {position: absolute;
   top: 56vh;
   left: 15vw;
   height: 8vh;
   width: 35vw;
   text-align: center;
-  text-shadow:2px 6px 6px white, -1px -3px 6px rgb(255, 255, 255);
-  border-radius: /* 0px 50px 0  */50px;
-  background-color: rgba(180, 167, 167, 0.26);
-  color: #39485F;
-  font-size: 1.6em;
+  text-shadow:4px 4px 6px rgb(179, 159, 159), -4px -4px 6px rgb(255, 255, 255);
+  border-radius:50px 0 50px 0px;
+  background-color: rgba(255, 255, 255, 0.281);
+  color: rgb(1, 2, 2);
+  font-size: 1.7em;
+  line-height: 4vh;
   font-family: 'Pangolin' ;
   font-weight: bolder;
-  box-shadow: 7px 7px 9px rgb(255, 255, 255);
+  box-shadow: 7px 7px 9px rgb(0, 0, 0),-7px -7px 9px rgb(0, 0, 0);
   vertical-align: middle;
   display: inline-block;
   padding-top: 30px;
   opacity: 0;
   transition: 0.5s ease-in, top 0.5s ease-out;
   transition-delay: 0;
-  transform: rotate(1deg) /* skew(3deg  80deg ) */ skewY(1deg) ;
+  transform: rotate(1deg) skewY(0.2deg) ;
 
 }
 
