@@ -70,7 +70,7 @@ nav ul li {
   transition: all 0.4s ease-out;
 }
 
-nav ul li:after {
+nav ul .home:after {
   font-family: "Slabo 27px";
   text-align: center;
   border-radius: 0 50% 0px 50%;
@@ -86,22 +86,75 @@ nav ul li:after {
   transition: all 0.4s ease-out;
 }
 
-nav ul li:nth-child(1):after {
+nav ul .terminal:after {
+  font-family: "Slabo 27px";
+  text-align: center;
+  border-radius: 0 50% 0px 50%;
+  position: absolute;
+  background: #d6d9cc98;
+  color: #39485f;
+  top: 0;
+  left: 70px;
+  width: 70px;
+  height: 100%;
+  transform: perspective(400px) rotateY(90deg);
+  transform-origin: -30% 100%;
+  transition: all 0.4s ease-out;
+}
+
+nav ul .git:after {
+  font-family: "Slabo 27px";
+  text-align: center;
+  border-radius: 0 50% 0px 50%;
+  position: absolute;
+  background: #d6d9cc98;
+  color: #39485f;
+  top: 0;
+  left: 70px;
+  width: 70px;
+  height: 100%;
+  transform: perspective(400px) rotateY(90deg);
+  transform-origin: -30% 100%;
+  transition: all 0.4s ease-out;
+}
+
+nav ul .info:after {
+  font-family: "Slabo 27px";
+  text-align: center;
+  border-radius: 0 50% 0px 50%;
+  position: absolute;
+  background: #d6d9cc98;
+  color: #39485f;
+  top: 0;
+  left: 70px;
+  width: 70px;
+  height: 100%;
+  transform: perspective(400px) rotateY(90deg);
+  transform-origin: -30% 100%;
+  transition: all 0.4s ease-out;
+}
+
+
+nav ul .home:after {
   content: "Home";
+  text-align: center;
   font-weight: bolder;
   line-height: 48px;
 }
-nav ul li :nth-child(2)::after {
+nav ul .terminal:after {
   content: "Terminal";
-  line-height: 88px;
+  font-weight: bolder;
+  line-height: 47px;
 }
-nav ul li :nth-child(3):after {
-  content: "git&github";
-  line-height: 85px;
+nav ul .git:after {
+  content: "Git&Github";
+  font-weight: bolder;
+  line-height: 47px;
 }
-nav ul li:nth-child(4):after {
-  content: "info&contact";
-  line-height: 70px;
+nav ul .info:after {
+  content: "Info";
+font-weight: bolder;
+  line-height: 47px;
 }
 
 nav ul li:hover {
