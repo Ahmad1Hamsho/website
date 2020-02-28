@@ -62,6 +62,13 @@ nav {
   left: -2.4vw;
 }
 
+.navar {
+  float: left;
+  position: relative;
+  top: -58vh;
+  left: -2.4vw;
+}
+
 nav ul {
   text-align: center;
 }
